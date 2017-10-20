@@ -1,0 +1,238 @@
+@font-face {
+    font-family: nunito;
+    src: url(nunito.ttf);
+}
+
+body {
+    font-family: nunito;
+    font-size:16px;
+    line-height: 27px;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.56),rgba(0,0,0,0.68)),url('img/index.jpg');
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+    border-color:rgba(0,0,0,1);
+    padding:10px 40px 10px;
+    font-size:0.9em;
+    text-transform:uppercase;
+}
+
+#section {
+    padding: 0 5vw 5vw 5vw;
+}
+
+@media(max-width:767px) {
+    .navbar {
+        padding:10px 10px;
+        background:#242424;
+    }
+    
+    #section {
+        padding: 2vw;
+    }
+    
+}
+
+#text {
+    color:#fff;
+}
+
+.navbar-brand {
+    font-size:1.5em;
+}
+
+.nav li {
+    margin-left:0px;
+}
+
+.nav li:hover {
+    background-color: rgba(2555,255,255,0.3);
+}
+
+#banner {
+    width:100%;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+    padding: 5vw;
+    color:#fff;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+#banner p {
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 2em 0;
+    text-transform: uppercase;
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+
+#banner h1 {
+    margin-bottom: 2em;
+}
+
+button {
+    background-color:rgba(0,0,0,0);
+    border: solid 2px #fff;
+    margin: 1em;
+    border-radius: 7%;
+    padding: 5px 20px;
+    letter-spacing:1px;
+}
+
+#sm {
+    display: inline-block;
+}
+
+@media(max-width:650px) {
+    
+    #banner {
+        padding: 1em 0 3em;
+    }
+    
+    #banner h1 {
+        margin-bottom: 1.25em;
+    }
+    
+    #sm {
+        display: block;
+    }
+    
+    button {
+        margin: 0.5em 2em;
+        padding: 5px 15px;
+    }
+}
+
+button a, button a:hover, button a:active, button a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+.footer {
+    color:#fff;
+    background-color:#242424;
+    padding:20px;
+    border-top:#000;
+    background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.98)),url('img/contact.jpg');*/
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+    background-position: bottom;
+	-o-background-size:cover;
+    font-size: 0.9em;
+}
+
+#banner2 {
+    width:100%;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+    color:#fff;
+}
+
+.intro-text {
+    margin-top: 50vh;
+    text-align: center;
+    font-size: 3.5em;
+    font-variant: small-caps;
+}
+
+@media(max-width: 650px) {
+    .intro-text {
+        font-size: 2.7em;
+    }
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    padding: 0;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 2px #888;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(100,100,100,0.7);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+.container {
+    width: 50%;
+}
+}
+
+.col-sm-4 {
+    margin: 1em auto;
+}
+
+.row {
+    margin-bottom: 1.5em;
+}
+
+@media(max-width: 768px) {
+.row {
+    margin-bottom: 4em;
+}
+.footspace {
+    display: none;
+}
+}
+
+@media(max-width:850px) {
+.hideimg {
+    opacity: 0;
+    display: none;
+}
+}
